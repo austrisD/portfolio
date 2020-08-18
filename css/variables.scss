@@ -1,0 +1,19 @@
+/*my color theme*/
+$MainDark: #000b18;
+$MainLite: #9db8d6;
+
+/*Mixing*/
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}
+@mixin background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
