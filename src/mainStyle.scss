@@ -1,0 +1,21 @@
+$PrimaryText: #001d3f;
+$SecondaryText: #748ba5;
+$BlueShade: #215d96;
+$liteShade: #ececec;
+
+@mixin centeringContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}

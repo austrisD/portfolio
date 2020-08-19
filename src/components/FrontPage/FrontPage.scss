@@ -1,0 +1,19 @@
+@import "../../mainStyle";
+
+header {
+  background-color: $liteShade;
+  text-align: center;
+  padding: 50px 0 20px;
+}
+h1 {
+  text-transform: uppercase;
+  color: $PrimaryText;
+  font-size: 80px;
+}
+h2 {
+  font-size: 20px;
+  color: $SecondaryText;
+  span {
+    color: #e7d000;
+  }
+}
