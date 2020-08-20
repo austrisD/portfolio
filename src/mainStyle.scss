@@ -2,6 +2,11 @@ $PrimaryText: #001d3f;
 $SecondaryText: #748ba5;
 $BlueShade: #215d96;
 $liteShade: #ececec;
+$starColor: #e7d000;
+
+$tablet-width: 768px;
+$desktop-width: 1200px;
+$small-with: 420px;
 
 @mixin centeringContainer {
   display: flex;
@@ -18,4 +23,27 @@ $liteShade: #ececec;
 @mixin flexCol {
   display: flex;
   flex-direction: column;
+}
+
+@mixin background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*media queries*/
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin small-with {
+  @media (max-width: #{$small-with}) {
+    @content;
+  }
 }

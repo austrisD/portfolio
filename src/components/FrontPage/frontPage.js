@@ -6,11 +6,11 @@ const FrontPage = () => {
     <>
       <header>
         <h1>Austris Daugulis</h1>
-        <svg height="20" width="500">
+        <svg height="20" width="400">
           <line
             x1="10"
             y1="10"
-            x2="500"
+            x2="400"
             y2="10"
             strokeWidth="2px"
             stroke="#001D3F"

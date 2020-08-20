@@ -1,9 +1,13 @@
 @import "../../mainStyle";
 
 header {
+  width: fit-content;
   background-color: $liteShade;
   text-align: center;
   padding: 50px 0 20px;
+  @include tablet() {
+    width: 100%;
+  }
 }
 h1 {
   text-transform: uppercase;
@@ -14,6 +18,6 @@ h2 {
   font-size: 20px;
   color: $SecondaryText;
   span {
-    color: #e7d000;
+    color: $starColor;
   }
 }
