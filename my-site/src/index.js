@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./reset.css";
-import "./mainStyle.scss";
+import "./css/normalize.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 

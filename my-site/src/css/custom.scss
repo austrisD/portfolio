@@ -1,8 +1,8 @@
-$PrimaryText: #001d3f;
-$SecondaryText: #748ba5;
-$BlueShade: #215d96;
-$liteShade: #ececec;
-$starColor: #e7d000;
+$color1: #001d3f;
+$color2: #748ba5;
+$color3: #215d96;
+$color4: #ececec;
+$color5: #e7d000;
 
 $tablet-width: 768px;
 $desktop-width: 1200px;
@@ -32,12 +32,12 @@ $small-with: 420px;
 }
 
 /*media queries*/
-@mixin tablet {
+@mixin tabletView {
   @media (min-width: #{$tablet-width}) {
     @content;
   }
 }
-@mixin desktop {
+@mixin desktopView {
   @media (min-width: #{$desktop-width}) {
     @content;
   }
@@ -45,5 +45,11 @@ $small-with: 420px;
 @mixin small-with {
   @media (max-width: #{$small-with}) {
     @content;
+  }
+}
+
+.mainContainer {
+  @include tabletView() {
+    @include flexRow();
   }
 }
