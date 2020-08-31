@@ -8,6 +8,15 @@ $tablet-width: 768px;
 $desktop-width: 1200px;
 $small-with: 420px;
 
+@font-face {
+  font-family: "Orbitron-Regular";
+  src: url(../assets/Orbitron/static/Orbitron-Regular.ttf);
+}
+@font-face {
+  font-family: "Orbitron-Black";
+  src: url(../assets/Orbitron/static/Orbitron-Black.ttf);
+}
+
 @mixin centeringContainer {
   display: flex;
   flex-direction: row;
@@ -45,11 +54,5 @@ $small-with: 420px;
 @mixin small-with {
   @media (max-width: #{$small-with}) {
     @content;
-  }
-}
-
-.mainContainer {
-  @include tabletView() {
-    @include flexRow();
   }
 }
