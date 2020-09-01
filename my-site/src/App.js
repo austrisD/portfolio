@@ -8,23 +8,23 @@ import Code from "./components/Code";
 import Gallery from "./components/Galery";
 import { BsChevronDoubleLeft } from "react-icons/bs";
 
+const hideSidebar = () => {
+  const aside = document.querySelector(".aside__Container");
+  const btnSvg = document.querySelector(".aside__hide__btn svg");
+  if (aside.style.transform === "") {
+    aside.style.transform = "translateX(-260px)";
+    aside.style.transition = "1s";
+    btnSvg.style.transform = "rotate(180deg)";
+  } else {
+    aside.style.transform = "";
+    btnSvg.style.transform = "";
+    aside.style.transition = "1s";
+  }
+};
+
 const App = () => {
   const [ResourceType, setResourceType] = useState(AboutMe);
   useEffect(() => {}, [ResourceType]);
-
-  const hideSidebar = () => {
-    const aside = document.querySelector(".aside__Container");
-    const btnSvg = document.querySelector(".aside__hide__btn svg");
-    if (aside.style.transform === "") {
-      aside.style.transform = "translateX(-260px)";
-      aside.style.transition = "1s";
-      btnSvg.style.transform = "rotate(180deg)";
-    } else {
-      aside.style.transform = "";
-      btnSvg.style.transform = "";
-      aside.style.transition = "1s";
-    }
-  };
 
   return (
     <>
@@ -53,6 +53,10 @@ const App = () => {
           <button onClick={() => setResourceType(Code)}>CODE CHALLENGES</button>
           <button onClick={() => setResourceType(Contacts)}>CONTACTS</button>
         </nav>
+        <footer>
+          Made by Austris Daugulis
+          <br /> 2020&copy;
+        </footer>
       </aside>
       <main className="main__Container">{ResourceType}</main>
     </>

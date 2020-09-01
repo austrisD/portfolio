@@ -74,6 +74,15 @@
       }
     }
   }
+  footer {
+    font-family: Orbitron-regular;
+    color: $color2;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    margin-top: auto;
+  }
 }
 .main__Container {
   @include flexCol;

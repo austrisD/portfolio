@@ -20,6 +20,13 @@
       width: 100%;
       height: 100%;
     }
+    .Portfolio__tech {
+      text-align: left;
+      padding-left: 20px;
+      li {
+        list-style-position: inside;
+      }
+    }
   }
 }
 .login__page {
@@ -33,4 +40,7 @@
 }
 .webSkola__page {
   background-image: url(../assets/webskola.lv_prew.jpg);
+}
+.ToDoList_page {
+  background-image: url(../assets/todolistPrew.jpg);
 }
