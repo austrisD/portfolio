@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/my-site/static/css/main.c14cbb0e.chunk.css",
+    "main.js": "/portfolio/my-site/static/js/main.2dfdf6ff.chunk.js",
+    "main.js.map": "/portfolio/my-site/static/js/main.2dfdf6ff.chunk.js.map",
+    "runtime-main.js": "/portfolio/my-site/static/js/runtime-main.e840be78.js",
+    "runtime-main.js.map": "/portfolio/my-site/static/js/runtime-main.e840be78.js.map",
+    "static/js/2.baeddf00.chunk.js": "/portfolio/my-site/static/js/2.baeddf00.chunk.js",
+    "static/js/2.baeddf00.chunk.js.map": "/portfolio/my-site/static/js/2.baeddf00.chunk.js.map",
+    "index.html": "/portfolio/my-site/index.html",
+    "precache-manifest.354e20d22bfd689cc3911d5a21c430b1.js": "/portfolio/my-site/precache-manifest.354e20d22bfd689cc3911d5a21c430b1.js",
+    "service-worker.js": "/portfolio/my-site/service-worker.js",
+    "static/css/main.c14cbb0e.chunk.css.map": "/portfolio/my-site/static/css/main.c14cbb0e.chunk.css.map",
+    "static/js/2.baeddf00.chunk.js.LICENSE.txt": "/portfolio/my-site/static/js/2.baeddf00.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/portfolio/my-site/static/media/Avatar.0a1ee681.JPG",
+    "static/media/Galery.scss": "/portfolio/my-site/static/media/Orbitron-Regular.add0c424.ttf",
+    "static/media/Portfolio.scss": "/portfolio/my-site/static/media/webskola.lv_prew.87e52866.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e840be78.js",
+    "static/js/2.baeddf00.chunk.js",
+    "static/css/main.c14cbb0e.chunk.css",
+    "static/js/main.2dfdf6ff.chunk.js"
+  ]
+}
