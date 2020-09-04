@@ -1,5 +1,11 @@
 import React from "react";
-import { FaMobileAlt, FaDesktop, FaTabletAlt } from "react-icons/fa";
+import {
+  FaMobileAlt,
+  FaDesktop,
+  FaTabletAlt,
+  FaSass,
+  FaBootstrap,
+} from "react-icons/fa";
 import { SiJekyll, SiJquery } from "react-icons/si";
 import "../css/Portfolio.scss";
 
@@ -39,6 +45,9 @@ const Portfolio = () => {
             <li>
               <SiJekyll /> made with jekyll
             </li>
+            <li>
+              <FaSass /> SCSS
+            </li>
           </>,
           `Consectetur est ut aute anim pariatur commodo excepteur fugiat
           nulla. Ipsum do nostrud esse consectetur cupida`
@@ -60,6 +69,9 @@ const Portfolio = () => {
             </li>
             <li>
               <SiJekyll /> made with jekyll
+            </li>
+            <li>
+              <FaSass /> SCSS
             </li>
           </>,
           `Consectetur est ut aute anim pariatur commodo excepteur fugiat
@@ -83,6 +95,9 @@ const Portfolio = () => {
             <li>
               <SiJekyll /> made with jekyll
             </li>
+            <li>
+              <FaSass /> SCSS
+            </li>
           </>,
           `Consectetur est ut aute anim pariatur commodo excepteur fugiat
           `
@@ -103,8 +118,7 @@ const Portfolio = () => {
               <FaMobileAlt /> Mobile view
             </li>
           </>,
-          `Consectetur est ut aute anim pariatur commodo excepteur fugiat
-      `
+          `My first wepPage i created`
         )}
         {Portfolio__element(
           `ToDoList`,
@@ -123,6 +137,10 @@ const Portfolio = () => {
             </li>
             <li>
               <SiJquery /> used jquery
+            </li>
+            <li>
+              <FaBootstrap />
+              Bootstrap
             </li>
           </>,
           `Consectetur est ut aute anim pariatur commodo excepteur fugiat

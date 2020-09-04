@@ -15,12 +15,20 @@ const hideSidebar = () => {
     aside.style.transform = "translateX(-260px)";
     aside.style.transition = "1s";
     btnSvg.style.transform = "rotate(180deg)";
+    if (window.screen.width < 1200) aside.style.position = "fixed";
   } else {
     aside.style.transform = "";
     btnSvg.style.transform = "";
     aside.style.transition = "1s";
+    if (window.screen.width < 1200) aside.style.position = "";
   }
 };
+
+// const container = document.querySelector(".aside__Container");
+// document.addEventListener("click", () => {
+//   const aside = document.querySelector(".aside__Container");
+//   if (window.screen.width < 1200) aside.style.position = "";
+// });
 
 const App = () => {
   const [ResourceType, setResourceType] = useState(AboutMe);

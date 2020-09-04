@@ -2,19 +2,23 @@
 
 #root {
   @include flexRow;
+  @include desktopView() {
+    padding-left: 258.7px;
+  }
 }
 
 .aside__Container {
   @include flexCol;
   align-items: center;
   width: fit-content;
+  box-sizing: border-box;
   background-color: $color1;
   height: 100vh;
   padding: 30px 20px 20px;
   position: fixed;
   top: 0;
   left: 0;
-  @include small-with {
+  @include desktopView() {
   }
   .aside__hide__btn {
     color: $color2;
@@ -26,8 +30,10 @@
     position: absolute;
     right: 0;
     top: 0;
-    @include small-with {
+    @include desktopView() {
+      display: none;
     }
+
     &:hover svg {
       color: $color4;
     }
@@ -80,7 +86,7 @@
     font-size: 10px;
     text-align: center;
     letter-spacing: 2px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-top: auto;
   }
 }
