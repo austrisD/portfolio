@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.101494a9.chunk.css",
-    "main.js": "/portfolio/static/js/main.c363c6cd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c363c6cd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b710d1cb.chunk.css",
+    "main.js": "/portfolio/static/js/main.41c8db6b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.41c8db6b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d24d1c12.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d24d1c12.js.map",
-    "static/js/2.decb3258.chunk.js": "/portfolio/static/js/2.decb3258.chunk.js",
-    "static/js/2.decb3258.chunk.js.map": "/portfolio/static/js/2.decb3258.chunk.js.map",
+    "static/js/2.28b4c84c.chunk.js": "/portfolio/static/js/2.28b4c84c.chunk.js",
+    "static/js/2.28b4c84c.chunk.js.map": "/portfolio/static/js/2.28b4c84c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c007b5d040ddcd5500d0e9d1036ff411.js": "/portfolio/precache-manifest.c007b5d040ddcd5500d0e9d1036ff411.js",
+    "precache-manifest.641288f129d8a5a35dd6c4498adcee99.js": "/portfolio/precache-manifest.641288f129d8a5a35dd6c4498adcee99.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.101494a9.chunk.css.map": "/portfolio/static/css/main.101494a9.chunk.css.map",
-    "static/js/2.decb3258.chunk.js.LICENSE.txt": "/portfolio/static/js/2.decb3258.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/portfolio/static/media/Avatar.0a1ee681.JPG",
-    "static/media/Gallery.scss": "/portfolio/static/media/Orbitron-Regular.add0c424.ttf",
-    "static/media/Portfolio.scss": "/portfolio/static/media/webskola.lv_prew.87e52866.jpg"
+    "static/css/main.b710d1cb.chunk.css.map": "/portfolio/static/css/main.b710d1cb.chunk.css.map",
+    "static/js/2.28b4c84c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.28b4c84c.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/portfolio/static/media/photos_2018_1_11_fst_gray-sky-stormy-weather.228ecfee.jpg",
+    "static/media/Portfolio.scss": "/portfolio/static/media/webskola.lv_prew.87e52866.jpg",
+    "static/media/Gallery.scss": "/portfolio/static/media/Orbitron-Regular.add0c424.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.d24d1c12.js",
-    "static/js/2.decb3258.chunk.js",
-    "static/css/main.101494a9.chunk.css",
-    "static/js/main.c363c6cd.chunk.js"
+    "static/js/2.28b4c84c.chunk.js",
+    "static/css/main.b710d1cb.chunk.css",
+    "static/js/main.41c8db6b.chunk.js"
   ]
 }
